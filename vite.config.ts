@@ -4,6 +4,7 @@ import glsl from 'vite-plugin-glsl';
 // Siddhānta-Yantra build configuration.
 // vite-plugin-glsl lets every shader in src/shaders be imported as a raw string module.
 export default defineConfig({
+  base: './',
   plugins: [
     glsl({
       include: ['**/*.glsl', '**/*.vert', '**/*.frag'],

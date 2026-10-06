@@ -1,0 +1,24 @@
+{
+  "name": "siddhanta-yantra",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Siddhānta-Yantra (सिद्धांत-यंत्र) — Classical Indian cosmology, Sūrya-Siddhānta astronomy & Advaita Vedānta engine in Three.js/GLSL",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@rollup/pluginutils": "^5.4.0",
+    "@types/three": "^0.186.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2",
+    "vite-plugin-glsl": "^1.6.2"
+  }
+}
